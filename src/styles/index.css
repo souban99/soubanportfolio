@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* CSS Variables */
+:root {
+    --font-primary: 'Source Sans Pro', sans-serif;
+    --font-secondary: 'Source Code Pro', monospace;
+
+    --fontWeight-reg: 300;
+    --fontWeight-bold: 900;
+
+    --color-light: #fff;
+    --color-dark: #303030;
+    --color-accent: #7e69f7;
+
+    --fontSize-h1: 3rem;
+    --fontSize-h2: 2.25rem;
+    --fontSize-h3: 1.25rem;
+    --fontSize-body: 1rem;
+
+    --boxShadow: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
+    0.125em 0.125em 0.25em rgba(0,0,0,.15);
+}
+
+@media (min-width: 800px) {
+    :root {
+        --fontSize-h1: 4.5rem;
+        --fontSize-h2: 3.75rem;
+        --fontSize-h3: 1.5rem;
+        --fontSize-body: 1.125rem;
+    }
+}
